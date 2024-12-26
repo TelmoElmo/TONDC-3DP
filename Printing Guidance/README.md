@@ -1,0 +1,12 @@
+# Printing Guidance
+ Tonbridge School Digital Creativity Department Proper Printing Guidance
+
+You will first need a .STL, .OBJ, .3MF, or other 3D object file. You can either design an object yourself, using tools such as Onshape, Tinker CAD, Blender or Fusion360, or you will need to first download a model from webistes such as printables, thingiverse, or yeggi (STL Search engine). You could also try some of the STL files located in the folder above. If you are designing parts but do not know where to start, consult the DT departments firefly pages which contain detailed guidance on getting started in Onshape.
+
+Orca Slicer is the department's recomended open source slicing software. It provides a fast, modern and intuitive interface, and integrates well with the departments printers and interfaces. It is devloped off of Prusa Slicer, a well established slicing software developed itself from Slic3r, the original open source 3D printer slicer. Orca Slicer incorporates aspects of Bambu Studio, by Bambu Labs, with the software. This makes it compatible with stock printers, the school's modified printers, and even closed source printers, such as the Bambu Labs series.
+
+Cura Slicer, whilst usable, is not recomended as it has perforemd poorly on several machines in our experience, much of the open source 3D Printing Community has moved to other slicers, and it shares very little design philosophy with a majority of other slicers, including OrcaSlicer, detailed in this guide.
+
+To install Orca Slicer, visit https://github.com/SoftFever/OrcaSlicer/releases. It is recomended you install Official Releases only, avoid beta versions. Download the arm64.dmg file (Most modern Apple Mac's), x86_64.dmg file (Older, Intel based Mac's), or Windows installer.exe. It is not advised to use the windows portable.zip version for performance reasons, unless you do not have administrator privalleges and will need to remove the program aftyer use (i.e. you are using a school loan laptop). If you are running the portable version on a loan laptop, do not save to the desktop documents or downloads folder (Z drive), and extract the zip to a location on the C Drive instead.
+
+To configure Orca Slicer, download the .3MF file above relavant to which printer you are using. Press the open project button in Orca Slicer and select the downloaded file. You can then save the printer, slicing settings, and filament profile as user presets, to configure the slicer to the departments recomended settings.
